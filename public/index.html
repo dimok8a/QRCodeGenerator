@@ -1,0 +1,24 @@
+<!doctype html>
+<html lang="ru">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport"
+				content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+	<meta http-equiv="X-UA-Compatible" content="ie=edge">
+	<title>QR code generator</title>
+	<link rel="stylesheet" href="style.css">
+</head>
+<body>
+	<div class="qrcode_container">
+		<input type="text" placeholder="Введите текст для QR кода" id="qr_text">
+		<!--		<input type="button" id="qr_btn" value="Создать">-->
+		<div id="qr_btn" class="btn">Создать</div>
+		<div class="result_container hide">
+			<div id="success_container">Ваш QR код:</div>
+			<img id="qr_img"></img>
+			<a id="qr_btn_download" class="btn">Скачать</a>
+		</div>
+	</div>
+	<script src="main.js"></script>
+</body>
+</html>
